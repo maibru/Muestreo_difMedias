@@ -108,7 +108,7 @@ server <- function(input, output) {
       
       # draw the histogram 
       hist(result()$dmed,main="",freq=FALSE,breaks=30,
-           xlab=expression(bar(X)[1]-bar(X)[2]),
+           xlab=expression(bar(Y)[1]-bar(Y)[2]),
            axes=FALSE,ylab="",xlim=c(result()$xmin,
            result()$xmax),col="skyblue1")
            #ylim=c(0,dnorm(result()$difmed.teo,
